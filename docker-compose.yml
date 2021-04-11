@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+    datascience:
+        container_name: ds2021
+        build: ./build
+        ports:
+            - "8888:8888"
+        volumes:
+        - .:/workdir
