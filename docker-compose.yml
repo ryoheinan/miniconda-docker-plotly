@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     datascience:
-        container_name: ds2021
+        container_name: miniconda
         build: ./build
         ports:
             - "8888:8888"
